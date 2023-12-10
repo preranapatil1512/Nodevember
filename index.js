@@ -3,7 +3,7 @@ const bodyParser= require("body-parser");
 const mongoose = require("mongoose");
 const blogPostArray = require("./data");
 require("dotenv").config();
-
+//app
 const app = express();
 
 app.set('view engine', 'ejs');
