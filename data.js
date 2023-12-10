@@ -35,6 +35,6 @@ var blogPosts = [
         title: "GitHub Essentials: Navigating the Collaboration Hub",
         description: "Explore the features of Next.js, a powerful React framework. Learn how Next.js simplifies the process of building server-rendered React applications, and discover its benefits for seamless client-side navigation."
     }
-];
+  ];
   
-module.exports = blogPosts;
+  module.exports = blogPosts;
