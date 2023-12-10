@@ -77,8 +77,8 @@ app.post("/compose", (req, res)=>{
 })
 
 app.get("/post/:id", (req, res)=>{
-    // console.log(req.params.id);
-
+    console.log(req.params.id);
+    
     const id = req.params.id;
     let title = "";
     let imageURL = "";
@@ -107,6 +107,8 @@ app.get("/about", (req, res)=>{
 app.get("/contact", (req, res)=>{
     res.render("contact")
 })
+
+
 
 
 const port = 3000 || process.env.PORT;
